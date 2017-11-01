@@ -1,0 +1,165 @@
+/*
+ * Type: CSS 3
+ * Author: Guillaume JORANDON
+ * Last edit: 09/29/2013 19:30
+ */
+
+body
+{
+	background: url("../images/background.jpg") fixed no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: courier, monospace;
+	color: #9C6E2C;
+}
+
+a
+{
+	text-decoration: underline;
+	color: #B08240;
+}
+
+#authors
+{
+	position: absolute;
+	text-align: right;
+	height: 530px;
+	width: 450px;
+	right: 90px;
+	top: 152px;
+	color: #302001;
+	line-height: 1.8em;
+	font-size: 1.3em;
+}
+
+#logo
+{
+	background: url("../images/background.jpg") fixed no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 10px;
+	height: 100px;
+	position: absolute;
+	top: 15px;
+	right: 65px;
+	border: 1px #9C6E2C solid;
+}
+
+#num
+{
+	background: url("../images/background.jpg") fixed no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 1.5em;
+	padding: 10px 2px 10px 2px;
+	height: 100px;
+	position: absolute;
+	top: 15px;
+	right: 195px;
+	border: 1px #9C6E2C solid;
+}
+
+#ADN
+{
+	background: url("../images/background.jpg") fixed no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 0px;
+	height: 120px;
+	width: 248px;
+	position: absolute;
+	top: 15px;
+	right: 267px;
+	border: 1px #9C6E2C solid;
+	overflow: hidden;
+}
+
+#cursor
+{
+	margin-left: 2px;
+}
+
+#ADN1A, #ADN1B, #ADN2A, #ADN2B
+{
+	position: absolute;
+}
+
+#ADN img
+{
+	margin: 0px;
+}
+
+#line1
+{
+	float: left;
+}
+
+#logo img
+{
+	width: 100px;
+}
+
+#player
+{
+	z-index: -1;
+	position: absolute;
+	top: 30px;
+	bottom: 30px;
+	left: 30px;
+	right: 30px;
+	padding: 40px;
+	text-align: justify;
+	line-height: 2em;
+	border: 1px #9C6E2C solid;
+	//height: 620px;
+	//height: 100%;
+}
+
+#playing, #muted
+{
+	font-family: 'ElegantIcons';
+}
+
+#encart_audio
+{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin: 0px;
+	margin-right: 40px;
+	margin-bottom: 5px;
+}
+
+#copyright
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+}
+
+#copyright img
+{
+	height: 20px;
+}
+
+@font-face
+{
+    font-family: 'ElegantIcons';
+    src: url('fonts/ElegantIcons/ElegantIcons.eot');
+    src: url('fonts/ElegantIcons/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ElegantIcons/ElegantIcons.woff') format('woff'),
+         url('fonts/ElegantIcons/ElegantIcons.ttf') format('truetype'),
+         url('fonts/ElegantIcons/ElegantIcons.svg#sofia_pro_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
